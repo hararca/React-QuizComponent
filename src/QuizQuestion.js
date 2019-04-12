@@ -26,9 +26,6 @@ class QuizQuestion extends Component {
                 );
               }
             )}
-            <QuizQuestionButton
-              button_text={this.props.quiz_question.answer_options[0]}
-            />
           </ul>
         </section>
       </main>
